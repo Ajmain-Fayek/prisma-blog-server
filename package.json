@@ -1,7 +1,7 @@
 {
   "name": "prisma-blog-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A blog app server build using express, postgres, prisma",
   "main": "src/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/Ajmain-Fayek/prisma-blog-server.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ajmain Fayek",
   "license": "ISC",
   "type": "module",
   "bugs": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Ajmain-Fayek/prisma-blog-server#readme",
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/node": "^25.0.9",
     "@types/pg": "^8.16.0",
@@ -32,6 +33,8 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.2.0",
     "@prisma/client": "^7.2.0",
+    "better-auth": "^1.6.9",
+    "cors": "^2.8.6",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "pg": "^8.17.2"
